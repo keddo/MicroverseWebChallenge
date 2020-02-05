@@ -1,4 +1,4 @@
-@media (max-width: 680px) {
+@media only screen and (max-width: 680px) {
     #social-media a {
         color: #fbfbff;
     }
@@ -28,7 +28,7 @@ body{
     padding-top: 10rem !important;
     background-color: #d2d4c8;
 }
-#profile-link_container{
+#profile-link{
     height: 80vh;
     background-color: #d2d4c8;
 }
@@ -46,7 +46,7 @@ body{
     padding-top: 2rem;
 }
 
-#project-tile{
+.project-title{
 	padding: 2rem;
 	text-align: center;
 }
