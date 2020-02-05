@@ -1,5 +1,18 @@
+@media (max-width: 680px) {
+    #social-media a {
+        color: #fbfbff;
+    }
+    #navbar{
+        background-color: #0b4f6c;
+    }
+  }
 body{
     margin: 0;
+    font-family: "Lucida Console", Monaco, monospace;
+    
+}
+#navbar a{
+    color: #e0e2db;
 }
 #welcome-section{
     height: 100vh;
@@ -7,23 +20,29 @@ body{
 	display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #8b2635;
 }
 .jumbotron{
     height: 70%;
     width: 80%;
-    padding-top: 15rem !important;
+    padding-top: 10rem !important;
+    background-color: #d2d4c8;
 }
 #profile-link_container{
     height: 80vh;
+    background-color: #d2d4c8;
+}
+#contact a{
+    color: #e0e2db ;
 }
 
 #work-text{
     height: 80%;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 #contact{
-    height: 20%;
+    height: 20vh;
     padding-top: 2rem;
 }
 
@@ -31,12 +50,13 @@ body{
 	padding: 2rem;
 	text-align: center;
 }
-.social-media a {
+#social-media a {
 	padding-right: 1.5rem;
-	color: #000;
+	color: #8b2635;
 	text-decoration: none !important;
 }
 .social-media i {
 	padding-right: 1rem;
 	color: #007bff;
 }
+
